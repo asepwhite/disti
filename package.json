@@ -1,0 +1,20 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "this is program for creating slack bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.5.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "google": "^2.1.0",
+    "google-search-scraper": "0.0.3",
+    "node-wit": "^4.2.0"
+  }
+}
